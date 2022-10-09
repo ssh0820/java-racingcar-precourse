@@ -31,7 +31,7 @@ public class CarController {
 
         for (String car: carNames.split(CarMessage.SEPARATOR)
              ) {
-            cars.add(new Car(new CarName(car),new Position(0)));
+            cars.add(new Car(new CarName(car.trim()),new Position(0)));
         }
         return cars;
     }
