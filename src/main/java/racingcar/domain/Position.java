@@ -9,6 +9,14 @@ import java.util.regex.Pattern;
 public class Position {
     private int position = 0;
 
+    public Position(int position){
+        this.position = position;
+    }
+
+    public int getPosition(){
+        return this.position;
+    }
+
     public int addPosition() {
         int randomNumber = 0;
 
@@ -21,7 +29,7 @@ public class Position {
     }
 
 
-    public String getPosition() {
+    public String getPositionStr() {
         StringBuilder road = new StringBuilder();
         for (int i = 1; i <= position; i++) {
             road.append(CarMessage.HYPHEN);
