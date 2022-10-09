@@ -8,8 +8,18 @@ import java.util.regex.Pattern;
 public class Round {
     public int round = 0;
 
+    public Round(){
+
+    }
+
     public Round(int round){
+        validateCheck(String.valueOf(round));
         this.round = round;
+    }
+
+    public void validateCheck(String input){
+        isCheck(input);
+        inputRegex(input);
     }
 
     public int getRound() {
@@ -17,7 +27,7 @@ public class Round {
     }
 
     public void isCheck(String input){
-        if(input.length() < CarMessage.MIN_NUMBER) throw new IllegalArgumentException(ExcMessage.ERROR_EMPTY);
+        if(input.length() == 0) throw new IllegalArgumentException(ExcMessage.ERROR_EMPTY);
     }
 
     public void inputRegex(String input){
