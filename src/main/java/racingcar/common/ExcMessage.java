@@ -7,11 +7,13 @@ public class ExcMessage {
 
     public static final String WINNER = "최종 우승자 : ";
 
-    public static final String NUMBER_REGEX = "^[0-9]{1}$";
+    public static final String NUMBER_REGEX = "^[0-9]$";
 
     public static final String ERROR_NUMBER = "[ERROR] 시도 횟수는 숫자여야 한다.";
 
     public static final String ERROR_EMPTY = "[ERROR] 값을 입력해주세요.";
 
-    public static final String ERROR_LENGTH = "이름은 5자리 이하로 입력해주세요.";
+    public static final String ERROR_LENGTH = "[ERROR] 이름은 5자리 이하로 입력해주세요.";
+
+    public static final String ERROR_DUPLICATE = "[ERROR] 중복된 이름이 존재합니다.";
 }
