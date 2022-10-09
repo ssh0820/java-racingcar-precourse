@@ -10,6 +10,8 @@ public class CarMessage {
     public static final int START_POSITION = 0;
     public static final int START_ROUND_NO = 1;
 
+    public static final int NAME_LENGTH = 5;
+
     public static final String SEPARATOR = ",";
     public static final String HYPHEN = "-";
 }

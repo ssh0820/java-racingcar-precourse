@@ -12,4 +12,6 @@ public class ExcMessage {
     public static final String ERROR_NUMBER = "[ERROR] 시도 횟수는 숫자여야 한다.";
 
     public static final String ERROR_EMPTY = "[ERROR] 값을 입력해주세요.";
+
+    public static final String ERROR_LENGTH = "이름은 5자리 이하로 입력해주세요.";
 }
