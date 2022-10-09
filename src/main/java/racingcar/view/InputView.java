@@ -11,9 +11,9 @@ public class InputView {
         return Console.readLine();
     }
 
-    /** 시도할 횟수 입력 */
+    /** 시도할 회수 입력 */
     public static String tryCar(){
         OutputView.println(ExcMessage.TRY);
-        return Console.readLine();
+        return Console.readLine().trim();
     }
 }
