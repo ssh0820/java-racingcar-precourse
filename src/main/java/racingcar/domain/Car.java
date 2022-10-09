@@ -9,12 +9,17 @@ public class Car {
 
     private final Position position;
 
-    private final Round round;
-
-    public Car(CarName carName,Position position, Round round){
+    public Car(CarName carName,Position position){
         this.carName = carName;
         this.position = position;
-        this.round = round;
+    }
+
+    public CarName getCarName() {
+        return carName;
+    }
+
+    public Position getPosition() {
+        return position;
     }
 
 }
