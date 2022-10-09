@@ -17,7 +17,12 @@
 ### 구현할 기능 정리
 1. 랜덤으로 값을 추출하는 Util 생성
 2. Console에 사용하는 Input, Output 메세지 common에 정의
-3. Console Input, Output View 생성
-4. 자동차 객체 생성
+3. Console Input, Output View 생성 
+4. 자동차 경주 객체 생성
+   - Car(CarName, Position, Round 생성)
+   - CarName(자동차 이름 길이체크, 공백체크, 빈값 체크, 중복 체크)
+   - Position( 0~9 랜덤 숫자생성, 최종 포지션 값 HYPHEN 출력 )
+   - Round(주어진 횟수에 대한 숫자 정규식 검증)
+   - Winner(한명일 경우와 한명이상일 경우 분리)
 5. Console에 입력 값 오류 케이스 및 문구 정의
 6. 테스트 코드로 데이터 검증
